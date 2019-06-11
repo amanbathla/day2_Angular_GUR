@@ -1,0 +1,23 @@
+<div align="center">
+  <h3>New Demo Component</h3>
+  <div>
+   <button (click)="toggleDiv()">
+      Toggle
+   </button>
+  </div>
+
+  <div *ngIf = "flag;then trueCondtion else falseCondtion">
+
+   
+  </div>
+
+  <ng-template #trueCondtion>
+      this template rembruce when the condtion is TRUE
+    </ng-template>
+
+    <ng-template #falseCondtion>
+        this template rembruce when the condtion is FALSE
+      </ng-template>
+
+</div>
+
